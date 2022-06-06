@@ -1,0 +1,64 @@
+* {
+    font-family: 'Roboto';
+}
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.info{
+    align-self: center;
+}
+
+.info-title{
+    color: crimson;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.info-subtitle{
+    color: rgb(0, 217, 255);
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.info-buttom{
+    border: none;
+    border-radius: 20px;
+    color: rgb(0, 217, 255);
+    background-color:darkslategrey;
+    font-weight: bolder;
+    padding: 10px 20px;
+}
+
+.Yoda{
+    display: grid;
+    grid-template-columns: 2fr 3fr ;
+    grid-template-rows: 400px;
+}
+
+.Yoda-image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.fotos-contenedor{
+    margin: 100px ;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    gap: 16px;
+    justify-content: center;
+}
+
+.foto-item{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.foto-big{
+    grid-area: 1 / 1 / 3 / 3;
+}
